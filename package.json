@@ -1,0 +1,20 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@wagmi/connectors": "^5.1.13",
+    "@wagmi/core": "^2.13.7",
+    "ethers": "^6.13.2",
+    "express": "^4.21.0",
+    "viem": "2.x"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
